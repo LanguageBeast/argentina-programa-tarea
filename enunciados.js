@@ -1,6 +1,7 @@
 //TAREA 1: crear un formulario donde un usuario pueda ingresar su salario anual.
 //cuando el usuario haga click en el botón "calcular", mostrar el salario mensual
 // en una caja de texto deshabilitada. --> <input type="text" disabled id="salario-mensual"/>
+// esta tarea la hago en este archivo
 const $botonCalcular = document.querySelector("#boton-calcular");
 $botonCalcular.onclick = function () {
   const $divRes = document.querySelector("#resultado");
