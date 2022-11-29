@@ -4,9 +4,9 @@
 const $botonCalcular = document.querySelector("#boton-calcular");
 $botonCalcular.onclick = function () {
   const $divRes = document.querySelector("#resultado");
-  $divRes.innerText += (
-    Number(document.querySelector("#salario-anual").value) / 12
-  ).toFixed(2);
+  $divRes.innerText =
+    "Tu salario anual es " +
+    (Number(document.querySelector("#salario-anual").value) / 12).toFixed(2);
   $divRes.style.display = "block";
 };
 
