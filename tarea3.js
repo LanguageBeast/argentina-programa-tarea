@@ -8,7 +8,6 @@
   // magia
   const $t3_boton = document.querySelector("#t3-boton");
   const $t3_strong = document.querySelector("#t3-strong");
-  console.log($t3_strong);
   $t3_boton.onclick = () => {
     let horas = Number(document.querySelector("#t3-horas").value);
     let minutos = Number(document.querySelector("#t3-minutos").value);
