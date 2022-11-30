@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tareas Clase 5</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
@@ -34,6 +35,28 @@
       <hr />
       <div>
         <h2>Tarea 2</h2>
+        <h3 id="t2-titulo">¡Bienvenido!</h3>
+        <form action="post" onsubmit="return false">
+          <fieldset>
+            <label for="t2-primer-nombre">Primer Nombre</label><br />
+            <input
+              type="text"
+              name="t2-primer-nombre"
+              id="t2-primer-nombre"
+            /><br />
+            <label for="t2-segundo-nombre">Segundo Nombre</label><br />
+            <input
+              type="text"
+              name="t2-segundo-nombre"
+              id="t2-segundo-nombre"
+            /><br />
+            <label for="t2-apellido">Apellido</label><br />
+            <input type="text" name="t2-apellido" id="t2-apellido" /><br />
+            <label for="t2-edad">Edad</label><br />
+            <input type="number" name="t2-edad" id="t2-edad" /><br />
+            <input type="submit" id="t2-boton" />
+          </fieldset>
+        </form>
       </div>
     </main>
     <script src="enunciados.js"></script>
