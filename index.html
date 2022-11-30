@@ -68,11 +68,11 @@
       <div>
         <h2>Tarea 3</h2>
         <p>
-          ¡Obtengamos el tiempo total de todos los 25 videos de Argentina
+          ¡Obtengamos las horas totales de todos los 25 videos de Argentina
           programa!
         </p>
-        <p id="t3-contador">Video <strong>1</strong> de 25</p>
-        <form action="post" onscroll="return false">
+        <p id="t3-contador">Video <strong id="t3-strong">1</strong> de 25</p>
+        <form action="post" onsubmit="return false">
           <fieldset>
             <label for="t3-horas">Horas</label><br />
             <input type="number" name="t3-horas" id="t3-horas" required /><br />
@@ -90,7 +90,7 @@
               id="t3-segundos"
               required
             /><br />
-            <input type="submit" id="t3-boton" />
+            <input type="submit" id="t3-boton" value="Cargar" />
           </fieldset>
         </form>
         <div id="t3-div"><p></p></div>
