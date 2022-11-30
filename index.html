@@ -27,10 +27,7 @@
             </button>
           </fieldset>
         </form>
-        <div
-          id="resultado"
-          style="display: none; margin-top: 10px; margin-bottom: 20px"
-        ></div>
+        <div id="resultado"></div>
       </div>
       <hr />
       <div>
@@ -64,15 +61,43 @@
             <input type="submit" id="t2-boton" />
           </fieldset>
         </form>
-        <div
-          id="t2-div"
-          style="display: none; margin-top: 10px; margin-bottom: 20px"
-        >
+        <div id="t2-div">
           <pre id="t2-pre"></pre>
         </div>
+      </div>
+      <div>
+        <h2>Tarea 3</h2>
+        <p>
+          ¡Obtengamos el tiempo total de todos los 25 videos de Argentina
+          programa!
+        </p>
+        <p id="t3-contador">Video <strong>1</strong> de 25</p>
+        <form action="post" onscroll="return false">
+          <fieldset>
+            <label for="t3-horas">Horas</label><br />
+            <input type="number" name="t3-horas" id="t3-horas" required /><br />
+            <label for="t3-minutos">Minutos</label><br />
+            <input
+              type="number"
+              name="t3-minutos"
+              id="t3-minutos"
+              required
+            /><br />
+            <label for="t3-segundos">Segundos</label><br />
+            <input
+              type="number"
+              name="t3-segundos"
+              id="t3-segundos"
+              required
+            /><br />
+            <input type="submit" id="t3-boton" />
+          </fieldset>
+        </form>
+        <div id="t3-div"><p></p></div>
       </div>
     </main>
     <script src="enunciados.js"></script>
     <script src="tarea2.js"></script>
+    <script src="tarea3.js"></script>
   </body>
 </html>
