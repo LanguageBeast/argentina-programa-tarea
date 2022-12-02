@@ -1,0 +1,12 @@
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#resultado,
+#t2-div,
+#t3-div,
+#t4-div {
+  display: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tareas Clase 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Tareas</h1>
+      <p>Tareas de la clase 5.</p>
+      <div>
+        <h2>Tarea 1</h2>
+        <form method="post" onsubmit="return false">
+          <fieldset>
+            <label for="salario-anual">Salario Anual</label>
+            <input
+              type="number"
+              id="salario-anual"
+              name="salario-anual"
+              placeholder="ingresa tu salario anual"
+            /><br />
+            <button type="submit" style="margin-top: 10px" id="boton-calcular">
+              Calcular salario mensual
+            </button>
+          </fieldset>
+        </form>
+        <div id="resultado"></div>
+      </div>
+      <hr />
+      <div>
+        <h2>Tarea 2</h2>
+        <h3 id="t2-titulo">¡Bienvenido!</h3>
+        <form action="post" onsubmit="return false">
+          <fieldset>
+            <label for="t2-primer-nombre">Primer Nombre</label><br />
+            <input
+              type="text"
+              name="t2-primer-nombre"
+              id="t2-primer-nombre"
+              required
+            /><br />
+            <label for="t2-segundo-nombre">Segundo Nombre</label><br />
+            <input
+              type="text"
+              name="t2-segundo-nombre"
+              id="t2-segundo-nombre"
+              required
+            /><br />
+            <label for="t2-apellido">Apellido</label><br />
+            <input
+              type="text"
+              name="t2-apellido"
+              id="t2-apellido"
+              required
+            /><br />
+            <label for="t2-edad">Edad</label><br />
+            <input type="number" name="t2-edad" id="t2-edad" required /><br />
+            <input type="submit" id="t2-boton" />
+          </fieldset>
+        </form>
+        <div id="t2-div">
+          <pre id="t2-pre"></pre>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h2>Tarea 3</h2>
+        <p>
+          ¡Obtengamos las horas totales de todos los 25 videos de Argentina
+          programa!
+        </p>
+        <p id="t3-contador">Video <strong id="t3-strong">1</strong> de 25</p>
+        <form action="post" onsubmit="return false">
+          <fieldset>
+            <label for="t3-horas">Horas</label><br />
+            <input type="number" name="t3-horas" id="t3-horas" required /><br />
+            <label for="t3-minutos">Minutos</label><br />
+            <input
+              type="number"
+              name="t3-minutos"
+              id="t3-minutos"
+              required
+            /><br />
+            <label for="t3-segundos">Segundos</label><br />
+            <input
+              type="number"
+              name="t3-segundos"
+              id="t3-segundos"
+              required
+            /><br />
+            <input type="submit" id="t3-boton" value="Cargar" />
+          </fieldset>
+        </form>
+        <div id="t3-div"><p></p></div>
+      </div>
+      <hr />
+      <div>
+        <h2>Tarea 4</h2>
+        <p>Obtener promedio, mínimo, máximo y el número que más se repite.</p>
+        <ol>
+          <li>15</li>
+          <li>16</li>
+          <li>66</li>
+          <li>1</li>
+          <li>41</li>
+          <li>98</li>
+          <li>1</li>
+          <li>15</li>
+          <li>422</li>
+          <li>1</li>
+        </ol>
+        <button id="t4-boton">Calcular</button>
+        <div id="t4-div">
+          <p>
+            <em id="em-prom"></em>
+            <em id="em-min"></em>
+            <em id="em-max"></em>
+            <em id="em-instancias"></em>
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="enunciados.js"></script>
+    <script src="tarea2.js"></script>
+    <script src="tarea3.js"></script>
+    <script src="tarea4.js"></script>
+  </body>
+</html>
