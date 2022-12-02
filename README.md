@@ -1,2 +1,2 @@
-# argentina-programa-tarea-clase-5
- Tareas de la clase 5 del curso Argentina Programa.
+# argentina-programa-tarea
+ Tareas de la clases del curso Argentina Programa.
